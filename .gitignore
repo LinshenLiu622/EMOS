@@ -1,0 +1,4 @@
+*.aux *.bbl *.blg *.lof *.log *.lot *.out *.toc *.synctex.gz
+*.fdb_latexmk *.fls *.nav *.snm *.vrb _minted* auto/ build/
+.DS_Store .idea .vscode __pycache__/ *.pyc
+data/ checkpoints/ outputs/
