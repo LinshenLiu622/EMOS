@@ -94,6 +94,7 @@ The construction methods for the three expert-specific subsets (i.e., EPE_subdat
 The utility functions used for expert categorization are provided in the repository under EMOS/Utility_function/. Specifically:
 
 accuracy_utility.py: defines the Accuracy Utility function.
+
 efficiency_utility.py: defines the Efficiency Utility function.
 
 These functions are used to quantify the accuracy–efficiency trade-off when organizing experts into different categories within EMOS.
