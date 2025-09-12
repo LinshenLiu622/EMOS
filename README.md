@@ -91,13 +91,21 @@ These commands will generate .pkl for each experts.
 The construction methods for the three expert-specific subsets (i.e., EPE_subdataset.txt, FAPE_subdataset.txt, and LAPE_subdataset.txt) are described in the EMOS paper. If you have any question, please contact us via email.
 
 ### Efficiency and Accuracy Utility Calculation 
-The utility functions used for expert categorization are provided in the repository under EMOS/Utility_function/. Specifically:
+<!-- The utility functions used for expert categorization are provided in the repository under EMOS/Utility_function/. Specifically:
 
 accuracy_utility.py: defines the Accuracy Utility function.
 
 efficiency_utility.py: defines the Efficiency Utility function.
 
-These functions are used to quantify the accuracy–efficiency trade-off when organizing experts into different categories within EMOS.
+These functions are used to quantify the accuracy–efficiency trade-off when organizing experts into different categories within EMOS. -->
+
+The repository provides utility functions to support expert categorization, located in EMOS/Utility_function/:
+
+accuracy_utility.py defines the Accuracy Utility function.
+
+efficiency_utility.py defines the Efficiency Utility function.
+
+These functions are used to evaluate the balance between accuracy and efficiency when assigning experts to different categories within EMOS.
 
 ### Training Process
 After generating the customized NuScenes info files, you can begin training the EMC2 model using the following command:
