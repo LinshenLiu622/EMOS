@@ -1,7 +1,7 @@
 # EMOS
 <!-- Repository for the TPAMI paper.
 <!-- 1 -->
-<!-- # EMC2 --> -->
+<!-- # EMC2 -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 This is the official repo for implementation of paper [Towards Optimal Mixture of Experts System for 3D Object Detection: A Game of Accuracy, Efficiency and Adaptivity](https://arxiv.org/abs/2507.04123) [TPAMI2025].
